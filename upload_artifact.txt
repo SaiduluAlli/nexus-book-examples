@@ -1,0 +1,6 @@
+
+1. Have a proper maven project to build from Jenkins ( e.g., https://github.com/SaiduluAlli/nexus-book-examples.git)
+2. Install config files plugin (Config File Provider Plugin)
+3. Create a maven settings config file. ( please refer to settings.xml in above git project)
+4. Create a Jenkins build job with the above git source code. ( define maven target as mvn clean deploy; pom.xml as maven/simple-project; naven settings as the settings file defined in config file section)
+5. Run build and see the artifact is uploaded into nexus or not
