@@ -16,12 +16,12 @@
     <repository>
       <id>nexus</id>
       <name>Nexus Releases</name>
-      <url>http://128.199.110.212:9876/repository/allis</url>
+      <url>http://128.199.110.212:9876/repository/allisrepo</url>
     </repository>
     <snapshotRepository>
       <id>nexus</id>
       <name>Nexus Snapshot</name>
-      <url>http://128.199.110.212:9876/repository/allis</url>
+      <url>http://128.199.110.212:9876/repository/allisrepo</url>
     </snapshotRepository>
   </distributionManagement>
   <build>
