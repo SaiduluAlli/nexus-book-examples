@@ -21,7 +21,7 @@
     <snapshotRepository>
       <id>nexus</id>
       <name>Nexus Snapshot</name>
-      <url>http://128.199.110.212:9876/repository/allis-snapshots</url>
+      <url>http://128.199.110.212:9876/repository/allis</url>
     </snapshotRepository>
   </distributionManagement>
   <build>
