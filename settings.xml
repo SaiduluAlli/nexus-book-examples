@@ -5,7 +5,7 @@
 <id>nexus</id>
 <mirrorOf>*</mirrorOf>
 <!--Nexus server public url -->
-<url>http://128.199.99.53:8081/repository/maven-public</url>
+<url>http://128.199.179.170:8081/repository/maven-public</url>
 </mirror>
 </mirrors>
 <profiles>
