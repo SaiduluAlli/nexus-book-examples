@@ -4,7 +4,7 @@
 
   <groupId>org.sonatype.nexus.examples</groupId>
   <artifactId>simple-project</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>5.0.0</version>
   <packaging>jar</packaging>
 
   <name>simple-project</name>
@@ -16,12 +16,12 @@
     <repository>
       <id>nexus</id>
       <name>Nexus Releases</name>
-      <url>http://128.199.179.170:8081/repository/allisrepo</url>
+      <url>http://139.59.235.231:8081/repository/allisrepo/</url>
     </repository>
     <snapshotRepository>
       <id>nexus</id>
       <name>Nexus Snapshot</name>
-      <url>http://128.199.179.170:8081/repository/allisrepo</url>
+      <url>http://139.59.235.231:8081/repository/allisrepo/</url>
     </snapshotRepository>
   </distributionManagement>
   <build>
