@@ -16,7 +16,7 @@
     <repository>
       <id>nexus</id>
       <name>Nexus Releases</name>
-      <url>http://192.168.157.128:8081/repository/allisrepo/</url>
+      <url>http://192.168.157.128:8081/repository/allisnexus/</url>
     </repository>
     <snapshotRepository>
       <id>nexus</id>
