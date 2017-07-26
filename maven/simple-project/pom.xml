@@ -16,12 +16,12 @@
     <repository>
       <id>nexus</id>
       <name>Nexus Releases</name>
-      <url>http://139.59.235.231:8081/repository/allisrepo/</url>
+      <url>http://192.168.157.128:8081/repository/allisrepo/</url>
     </repository>
     <snapshotRepository>
       <id>nexus</id>
       <name>Nexus Snapshot</name>
-      <url>http://139.59.235.231:8081/repository/allisrepo/</url>
+      <url>http://192.168.157.128:8081/repository/allisrepo/</url>
     </snapshotRepository>
   </distributionManagement>
   <build>
