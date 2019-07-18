@@ -5,7 +5,7 @@
 <id>nexus</id>
 <mirrorOf>*</mirrorOf>
 <!--Nexus server public url -->
-<url>http://128.199.179.170:8081/repository/maven-public</url>
+<url>http://192.168.0.110:9876/repository/maven-public</url>
 </mirror>
 </mirrors>
 <profiles>
@@ -37,9 +37,9 @@
 </activeProfiles>
 <servers>
 <server>
-<id>nexus</id>
+<id>nexus-example</id>
 <username>admin</username>
-<password>admin123</password>
+<password>Admin123</password>
 </server>
 </servers>
 </settings>
