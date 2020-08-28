@@ -16,14 +16,14 @@
   </properties>
   <distributionManagement>
     <repository>
-      <id>artifactory</id>
-      <name>Artifactory Releases</name>
-      <url>https://allisjfrogcloud.jfrog.io/artifactory/libs-release/</url>
+      <id>central</id>
+      <name>allisjfrogcloud-artifactory-primary-0-releases</name>
+      <url>https://allisjfrogcloud.jfrog.io/artifactory/allis-maven</url>
     </repository>
     <snapshotRepository>
-      <id>artifactory</id>
-      <name>Artifactory Snapshot</name>
-      <url>https://allisjfrogcloud.jfrog.io/artifactory/libs-snapshots/</url>
+      <id>snapshots</id>
+      <name>allisjfrogcloud-artifactory-primary-0-snapshots</name>
+      <url>https://allisjfrogcloud.jfrog.io/artifactory/allis-maven</url>
     </snapshotRepository>
   </distributionManagement>
   <build>
