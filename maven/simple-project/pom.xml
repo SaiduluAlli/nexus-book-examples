@@ -16,14 +16,14 @@
   </properties>
   <distributionManagement>
     <repository>
-      <id>nexus</id>
-      <name>Nexus Releases</name>
-      <url>http://192.168.0.110:9876/repository/maven-releases/</url>
+      <id>artifactory</id>
+      <name>Artifactory Releases</name>
+      <url>https://allisjfrogcloud.jfrog.io/artifactory/libs-release/</url>
     </repository>
     <snapshotRepository>
-      <id>nexus</id>
-      <name>Nexus Snapshot</name>
-      <url>http://192.168.0.110:9876/repository/maven-snapshots/</url>
+      <id>artifactory</id>
+      <name>Artifactory Snapshot</name>
+      <url>https://allisjfrogcloud.jfrog.io/artifactory/libs-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
   <build>
